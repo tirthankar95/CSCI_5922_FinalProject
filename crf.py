@@ -14,6 +14,8 @@ plt.style.use('ggplot')
 
 pip install -U 'scikit-learn<0.24'
 
+!pip install sklearn-crfsuite
+
 from itertools import chain
 
 import nltk
@@ -130,3 +132,4 @@ metrics.flat_f1_score(YVal__, y_pred,average='weighted', labels=labls)
 print(metrics.flat_classification_report(YVal__, y_pred,digits=3))
 
 y_pred
+
